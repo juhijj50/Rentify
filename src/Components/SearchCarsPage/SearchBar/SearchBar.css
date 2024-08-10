@@ -1,0 +1,46 @@
+.search-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-input {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .search-input label {
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .search-input input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-button {
+    padding: 0.5rem 1rem;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #f39c12;
+  }
+  
+  .pink{
+    color: #f39c12;
+  }
+.book{
+    color:#2c3e50;
+}
